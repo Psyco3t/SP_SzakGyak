@@ -169,7 +169,7 @@ position: relative;
 width: auto;
 height: 48px;
 padding-top: 50px;
-padding-bottom: 60px;
+padding-bottom: 70px;
 }
 
 .dvg-company-button{
@@ -241,4 +241,22 @@ margin-bottom: 6px;
   }
 .card-container{
     padding: 10px 16px;
+}
+
+.dvg-line-auto{
+    position: relative;
+    background-color: #BF0F0F;
+    width: 150px;
+    height: 6px;
+}
+
+.dvg-line-container{
+    padding-top: 10px;
+    padding-bottom: 93px;
+}
+
+.dvg-red-rectangle{
+    background-image: url(../assets/pictures/rectangle.png);
+    width: 100%;
+    height: 100%;
 }
