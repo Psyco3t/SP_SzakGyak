@@ -319,3 +319,104 @@ color: #FFFFFF;
     overflow: hidden;
     top: 40px;
 }
+
+.dvg-logo-font{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    /* identical to box height, or 189% */
+
+    text-align: center;
+
+color: #474747;
+}
+
+.dvg-buttonbrand-container{
+
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    width: auto;
+    height: 48px;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    }
+.dvg-end{
+    background-image: url(../assets/pictures/White-fur-rug-texture-patternpictures-1313\ 1.png);
+    width: 100%;
+    padding: 50px;
+}
+
+.dvg-end-large-font{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height, or 121% */
+
+
+color: #FFFFFF;
+
+}
+
+.dvg-end-smallText{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+/* or 22px */
+
+
+color: #FFFFFF;
+}
+
+.dvg-end-capital{
+    font-family: RobotoCondensed;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.dvg-contact{
+display: inline;
+list-style-image: none;
+}
+
+footer{
+    background: rgba(0, 0, 0,0.7);
+    background-blend-mode: multiply;
+    width: 100%;
+    
+}
+
+.dvg-footer-text{
+    padding: 15px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 137.99%;
+/* or 19px */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-link{
+    color: rgba(255, 255, 255, 1);
+}
