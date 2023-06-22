@@ -7,6 +7,7 @@
     <meta name="description" content="DVG Company">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
     <script src='main.js'></script>
 </head>
@@ -37,7 +38,7 @@
           </div>
     </div>
     <div class="navContainer">
-        <ul class="nav nav-pills nav-fill">
+        <!--<ul class="nav nav-pills nav-fill">
             <li class="nav-item-border">
                 <a class="nav-link navTextColorPrimary" aria-current="page" href="#"><p class="navText">O NAMA<br><span class="navBottomText">vizija Uspeh</span></p></a>
             </li>
@@ -65,7 +66,56 @@
                 <a class="nav-link navTextColorPrimary" href="#"><p class="navText">KONTAKT<br>
                   <span class="navBottomText">kontaktirajte nas</span></p></a>
               </li>
-          </ul>
+          </ul>-->
+          <nav class="navbar navbar-expand-lg navbar-light" style="padding: 0px;">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <div class="container d-flex justify-content-center align-items-center">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item-border">
+                    <div class="justify-content-center d-flex align-items-center">
+                      <a class="nav-link" aria-current="page" href="#"><p class="navText">O NAMA</p><span class="navBottomText">vizija za uspeh</span></a>
+                    </div>
+                  </li>
+                  <li class="nav-item-border">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <a class="nav-link" aria-current="page" href="#"><p class="navText">DVG PROIZVODI</p><span class="navBottomText">naši proizvodi</span></a>
+                    </div>
+                  </li>
+                  <li class="nav-item-border">
+                    <div class="justify-content-center d-flex align-items-center">
+                      <a class="nav-link" aria-current="page" href="#"><p class="navText">BRENDOVI</p><span class="navBottomText">koje zasupamo</span></a>
+                    </div>
+                  </li>
+                  <li class="nav-item-border">
+                    <div class="justify-content-center d-flex align-items-center">
+                      <a class="nav-link" aria-current="page" href="#"><p class="navText">DISTRIBUCIJA</p><span class="navBottomText">logistika i operativa</span></a>
+                    </div>
+                  </li>
+                  <li class="nav-item-border">
+                    <div class="justify-content-center d-flex align-items-center">
+                      <a class="nav-link" aria-current="page" href="#"><p class="navText">SARADNJA</p><span class="navBottomText">proširenje ponude</span></a>
+                    </div>
+                  </li>
+                  <li class="nav-item-border">
+                    <div class="justify-content-center d-flex align-items-center">
+                      <a class="nav-link" aria-current="page" href="#"><p class="navText">NOVOSTI</p><span class="navBottomText">aktuelnosti</span></a>
+                    </div>
+                  </li>
+                  <li class="nav-item-border">
+                    <div class="justify-content-center d-flex align-items-center">
+                      <a class="nav-link" aria-current="page" href="#"><p class="navText">KONTAKT</p><span class="navBottomText">kontaktirajte nas</span></a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              </div>
+            </div>
+          </nav>
     </div>
     <div class="img-container">
       <img class="video-fit" src="assets/pictures/01 Images/Video.png" alt="videoPic">
@@ -206,7 +256,7 @@
             </div>
           </div>
           <div class="card">
-            <img style="width: 100%;" src="assets/pictures/cards2/tpaperCut.png" alt="paper">
+            <img style="width: 90%;" src="assets/pictures/cards2/tpaperCut.png" alt="paper">
             <div class="card-container">
               <p class="dvg-feature-name">Ubrusi i <br>toalet papiri</p>
               <div class="dvg-line-small"></div>
@@ -219,8 +269,8 @@
               <div class="dvg-line-small"></div>
             </div>
           </div>
-          <div class="card">
-            <img style="width: 100%;" src="assets/pictures/cards2/plasticCut.png" alt="plasticCut">
+          <div class="card justify-content-center align-items-center">
+            <img style="height: auto; width: 232px;" src="assets/pictures/cards2/plasticCut.png" alt="plasticCut">
             <div class="card-container">
               <p class="dvg-feature-name">PlastiČne Kante</p>
               <div class="dvg-line-small"></div>
@@ -288,46 +338,48 @@
     <div class="container-fluid" style="padding: 0px;">
       <div class="col dvg-end">
         <div class="row d-flex justify-content-center align-items-center">
-          <div class="col d-flex justify-content-center align-items-center">
-            <img src="assets/pictures/logo2.png" alt="logo">
-          </div>
-          <div class="col">
-            <p class="dvg-end-large-font">
-              D.V.G. COMPANY
-            </p>
-            <div>
-              <ul class="">
-                <li style="list-style-image: url(assets/pictures/vectorPlace.png);"><p class="dvg-end-smallText">Čantavirski put bb 24000 Subotica, Srbija</p></li>
-                <li style="list-style-image: url(assets/pictures/Vectorphone.png);"><p class="dvg-end-smallText">+381 24 568 555</p></li>
-                <li style="list-style-image: url(assets/pictures/vectorOffice.png);"><p class="dvg-end-smallText">office@dvgcomapny.com</p></li>
-              </ul>
+          <div class="col-sm-3">
+            <div class="dvg-end-height dvg-number-line">
+              <img src="assets/pictures/logo2.png" alt="logo">
             </div>
           </div>
-          <div class="col">
-            <div>
-              <ul class="">
-                <li>
-                  <p class="dvg-end-capital"> O NAMA</p>
-                </li>
-                <li>
-                  <p class="dvg-end-capital"> DVG PROIZVODI</p>
-                </li>
-                <li>
-                  <p class="dvg-end-capital"> DISTRIBUCIJA</p>
-                </li>
-                <li>
-                  <p class="dvg-end-capital"> SARADNJA</p>
-                </li>
-                <li>
-                  <p class="dvg-end-capital"> NOVOSTI</p>
-                </li>
-                <li>
-                  <p class="dvg-end-capital"> KONTAKT</p>
-                </li>
-              </ul>
+          <div class="col-sm-3">
+            <div class="dvg-end-height dvg-number-line">
+              <p class="dvg-end-large-font">
+                D.V.G. COMPANY
+              </p>
+              <div>
+                <ul class="">
+                  <li style="list-style-image: url(assets/pictures/vectorPlace.png);"><p class="dvg-end-smallText">Čantavirski put bb 24000 Subotica, Srbija</p></li>
+                  <li style="list-style-image: url(assets/pictures/Vectorphone.png);"><p class="dvg-end-smallText">+381 24 568 555</p></li>
+                  <li style="list-style-image: url(assets/pictures/vectorOffice.png);"><p class="dvg-end-smallText">office@dvgcomapny.com</p></li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-sm-3">
+            <div class="dvg-end-height dvg-number-line">
+              <p class="dvg-end-capital">
+                O NAMA
+              </p>
+              <p class="dvg-end-capital">
+                DVG PROIZVODI
+              </p>
+              <p class="dvg-end-capital">
+                DISTRIBUCIJA
+              </p>
+              <p class="dvg-end-capital">
+                SARADNJA
+              </p>
+              <p class="dvg-end-capital">
+                NOVOSTI
+              </p>
+              <p class="dvg-end-capital">
+                KONTAKT
+              </p>
+            </div>            
+          </div>
+          <div class="col-sm-3">
             <p class="dvg-end-smallText">
               Pratite nas:
             </p>
